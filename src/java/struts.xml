@@ -15,7 +15,7 @@
             <result name="success" >/index.jsp</result>
             <result name="unsuccess">/register.jsp</result>
         </action>
-        <action name="canreg" class="com.cms.action.canRegisterAction" method="docanRegister">
+        <action name="canreg" class="com.cms.action.CanRegisterAction" method="docanRegister">
             <result name="success" >/index.jsp</result>
             <result name="failure">/register.jsp</result>
         </action>
